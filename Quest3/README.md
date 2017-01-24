@@ -17,4 +17,4 @@ Each stopwatch obeys its own start/pause button and reset button.
 When a stopwatch reaches its target (either 0 or countTarget depending on which direction they are counting), the stopwatch stops counting and the start/pause button becomes disabled.
 
 
-Solution: https://jsfiddle.net/vsuhaskumar/6n2dsfgf/
+Solution: https://jsfiddle.net/vsuhaskumar/6n2dsfgf/3/

@@ -1,22 +1,28 @@
-<body id = "onload">
-  <p> Enter number in minutes to start stopwatches !!
-      <input type="textbox" id="countTarget"></p>
+<html>
+    <head>
+        <title> Stopwatch</title>
+        <link rel=stylesheet type="text/css" href="stopwatch.css">
+         <script type="text/javascript" src="stopwatch.js"></script>
+    </head>
+    
+        <body id="onload">
+            <p  class = "stop-head"><b> Enter a number in minutes to start stopwatches !! </b>
+            <input class = "stop-head" type="textbox" id="countTarget">
+            </p>
+            
+            <br/>
+  
+  
+            <h2 class = "stop-head-title"> Stopwatch 1 - Count Up</h2>
+            <div><b class = "stop-head">Stopwatch Timer :</b> <span id="timeup">00 days <b>|</b> 00 hours <b>|</b> 00 minutes <b>|</b> 00 seconds</span></div>
+            <input class="btnstart" id="start1" type="submit" onclick="startup()" value="Start"><i class="material-icons"></i>
+            <input class="btnreset" type="submit" onclick="reset1()" value="Reset-Time">
 
-   <p> Stopwatch 1 - Count Up</p>
-   <p>
-   <div>Stopwatch Timer:  <span id="timeup">00 days  00 hours 00 minutes  00 seconds</span></div>
-   </p> 
-    <input id = "start1" type = "submit" onclick = "startup()" value="Start">
-    <input type = "submit" onclick = "reset1()" value="Reset-Time">
+            <br/> <br/><br/><br/>
 
-
-<br/><br/><br/><br/>
-
-    <p> Stopwatch 2 - Count down</p>
-    <p>
-        <div>Stopwatch Timer:  <span id="timedown">00 days  00 hours 00 minutes  00 seconds</span></div>
-    </p>
-
-    <input id = "start2" type = "submit" onclick = "startdown()" value="Start">
-    <input type = "submit" onclick = "reset2()" value="Reset-Time">
-</body>
+            <h2 class = "stop-head-title"> Stopwatch 2 - Count Down</h2>
+            <div><b class = "stop-head">Stopwatch Timer :</b> <span id="timedown">00 days <b>|</b> 00 hours <b>|</b> 00 minutes <b>|</b> 00 seconds</span> </div>
+            <input class="btnstart" id="start2" type="submit" onclick="startdown()" value="Start">
+            <input class="btnreset" type="submit" onclick="reset2()" value="Reset-Time">
+        </body>
+</html>
